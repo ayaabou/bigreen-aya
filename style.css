@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: raleway; 
+}
+
+header{
+    font-family: raleway;
+    
+}
+
+h1 {
+    margin-top: 20px; 
+    font-weight: normal;
+    font-family: raleway;
+    text-align: center; 
+}
+
+main .intro{
+    background-color: #C7B2A8; 
+    padding: 10px 0; 
+
+}
+
+
+main {
+    text-align: center;
+    margin: 0 20px; 
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #868F89;
+    padding: 10px 0; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center; 
+}
+
+nav li {
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white; 
+}
+
+
+
+h3 {
+    text-align: center; /* Zet de tekst in het midden */
+    margin-bottom: 20px; /* Voeg meer ruimte toe aan de onderkant */
+    background-color: #868F89;
+    padding: 10px 0; 
+    color: white;
+    font-weight: normal;
+}
+
+footer p {
+    display: block; /* Zorg ervoor dat de elementen onder elkaar staan */
+    margin: 10px 0; /* Voeg wat verticale ruimte toe tussen de elementen */
+    margin-left: 20px; /* Pas de waarde aan naar de gewenste ruimte */
+}
